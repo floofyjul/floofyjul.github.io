@@ -49,3 +49,9 @@ p {
     font-size: 4vh;
     padding: 0%;
 }
+#heylines {
+    position: absolute;
+    float: left;
+    transform: translateX(-50%);
+    left: 50%;
+}
