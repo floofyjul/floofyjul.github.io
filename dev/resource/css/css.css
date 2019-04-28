@@ -8,6 +8,10 @@ body {
 	font-family: 'PT Mono', monospace;
     background-color: #050505;
     color: white;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    height: 100vh;
 }
 section {
 	/*border-bottom: 1px solid #444444;*/
@@ -58,10 +62,52 @@ p {
 #phatpageline {
     position: absolute;
     top: 0px;
-    left: 0px;
+    right: 3.4vw;
     float: right;
 }
 #phatpagelineline {
     stroke:rgb(200,200,200);
-    stroke-width: .5;
+    stroke-width: 1;
+}
+#nav {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 3vw;
+    float: right;
+    text-align: right;
+}
+a {
+    text-decoration: none;
+    color: gray;
+    content: "o";
+}
+a:hover{
+    display: inline;
+    color: white;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    color: #fff;
+    text-align: right;
+    padding: 0px 5px;
+    width: 100px;
+    font-family: 'Encode Sans Condensed', sans-serif;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: inherit;
+    right: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.active{
+    color: white;
 }

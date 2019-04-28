@@ -1,10 +1,10 @@
 <html>
     <head>
         <title>jul</title>
-        <link rel="stylesheet" type="text/css" href=resource/css.css>
+        <link rel="stylesheet" type="text/css" href="resource/css/css.css">
         <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:100|Montserrat:200i,700|PT+Mono" rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
-        <script src="resource/anims.js"></script>
+        <script src="ScrollTrigger.min.js"></script>
+        <script src="resource/js/anims.js"></script>
     </head>
     <body>
         <section id="Welcome">
@@ -26,7 +26,7 @@
                 </div>
             </div>
         </section>
-        <section id="About">
+        <section id="About" data-scroll>
             <h1>About Me</h1>
         </section>
         <section id="Work">
@@ -38,10 +38,29 @@
         <section id="Contact">
             <h1>Contact Me</h1>
         </section>
-        <div id="phatpageline">
-            <svg height="500vh" width="100vw">
-                <line id="phatpagelineline" x1="97vw" y1="105vh" x2="97vw" y2="495vh">
+<!--         <div id="phatpageline">
+            <svg height="500vh" width="1">
+                <line id="phatpagelineline" x1="0" y1="105vh" x2="0" y2="495vh">
             </svg>
+        </div> -->
+        <div class="navcontainer">
+            <div id="nav">
+                <a href="#Welcome" class="tooltip">o
+                        <span class="tooltiptext">Welcome</span>
+                </a><br>
+                <a href="#About" class="tooltip">o
+                        <span class="tooltiptext">About Me</span>
+                </a><br>
+                <a href="#Work" class="tooltip">o
+                        <span class="tooltiptext">My Work</span>
+                </a><br>
+                <a href="#Skills" class="tooltip">o
+                        <span class="tooltiptext">My Skills</span>
+                </a><br>
+                <a href="#Contact" class="tooltip">o
+                        <span class="tooltiptext">Contact Me</span>
+                </a><br>
+            </div>
         </div>
     </body>
 </html>
