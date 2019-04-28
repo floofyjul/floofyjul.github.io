@@ -6,7 +6,7 @@
 }
 body {
 	font-family: 'PT Mono', monospace;
-    background-color: #333333;
+    background-color: #050505;
     color: white;
 }
 section {
@@ -27,7 +27,7 @@ h1	{
 	left: 0;
 	font-size: calc(1rem + 1vw);
 }
-p {
+p { 
     padding: 0;
     line-height: 0;
 }
@@ -54,4 +54,14 @@ p {
     float: left;
     transform: translateX(-50%);
     left: 50%;
+}
+#fu {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    float: right;
+}
+#lolol {
+    stroke:rgb(200,200,200);
+    stroke-width: .5;
 }
