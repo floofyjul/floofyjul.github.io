@@ -55,13 +55,13 @@ p {
     transform: translateX(-50%);
     left: 50%;
 }
-#fu {
+#phatpageline {
     position: absolute;
     top: 0px;
     left: 0px;
     float: right;
 }
-#lolol {
+#phatpagelineline {
     stroke:rgb(200,200,200);
     stroke-width: .5;
 }
