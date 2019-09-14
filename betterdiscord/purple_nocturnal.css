@@ -1,0 +1,41 @@
+/*Add margins to the edges*/
+/*text*/
+.channelTextArea-rNsIhG {
+    margin-bottom: 20px;
+}
+.form-2fGMdU {
+    flex-shrink: 0 !important;
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
+.typing-2GQL18 {
+    top: -22px;
+    font-size: 8pt;
+}
+.panels-j1Uci_ {
+    margin-bottom: 10px;
+}
+.theme-dark .isMentioned-N-h9aa {
+    background: rgba(184, 112, 237,.1);
+}
+.isMentionedCozy-3isp7y:after {
+    background: rgba(184, 112, 237,.1);
+    border-left: 4px solid #b870ed;
+}
+.theme-dark .wrapper-3WhCwL {
+    color: #b870ed;
+}
+.theme-dark .isMentioned-N-h9aa .mention {
+    color: #b870ed;
+}
+.markup-2BOw-j a, .anchor-3Z-8Bb {
+    color: #b870ed;
+}
+.innerNoAutocomplete-1WpcVO {
+    border-radius: 8px;
+}
+div.numberBadge-2s8kKX {
+    background-color: #b870ed !important;
+}
+
+:root{--text-link: #b870ed;--primary: #b870ed;--primaryGradient1:#a836ff; --primaryGradient2: #b870ed}
