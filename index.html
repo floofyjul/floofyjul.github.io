@@ -1,12 +1,60 @@
-﻿<html>
+<html>
     <head>
         <title>jul</title>
-        <link rel="stylesheet" type="text/css" href=resource/mycss.css>
-		<link rel="icon" href=resouce/wolf.ico>
+        <link rel="stylesheet" type="text/css" href="resource/css/css.css">
+        <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed:100|Montserrat:200i,700|PT+Mono" rel="stylesheet">
+        <!-- <script src="ScrollTrigger.min.js"></script> -->
+        <script src="resource/js/anims.js"></script>
     </head>
     <body>
-        <div class=page>
-			<p><a href="https://github.com/juliscrazy">- under construction -</a></p>
+        <section id="welcome">
+            <h1></h1>
+            <div id="hey">
+                <div id="heyhey">
+                    <i><p>Hey I'm</p></i>
+                </div>
+                <div id="heylines">
+                    <svg height="2" width="70vw">
+                        <line x1="0" y1="0" x2="25vw" y2="0" style="stroke:rgb(255,255,255);stroke-width:2vh;float: left">
+                    </svg>
+                    <svg height="2" width="70vw">
+                        <line x1="45vw" y1="0" x2="70vw" y2="0" style="stroke:rgb(255,255,255);stroke-width:2vh;float: right;">
+                    </svg>
+                </div>
+                <div id="heyname">
+                    <p>JUL</p>
+                </div>
+            </div>
+        </section>
+        <section id="about" data-scroll>
+            <h1>~/about_me</h1>
+        </section>
+        <section id="projects">
+            <h1>~/projects</h1>
+        </section>
+        <section id="contact">
+            <h1>~/contact</h1>
+        </section>
+<!--         <div id="phatpageline">
+            <svg height="500vh" width="1">
+                <line id="phatpagelineline" x1="0" y1="105vh" x2="0" y2="495vh">
+            </svg>
+        </div> -->
+        <div class="navcontainer">
+            <div id="nav">
+                <a href="javascript:welcome()" class="tooltip">o
+                        <span class="tooltiptext">welcome</span>
+                </a><br>
+                <a href="javascript:about()" class="tooltip">o
+                        <span class="tooltiptext">about me</span>
+                </a><br>
+                <a href="javascript:projects()" class="tooltip">o
+                        <span class="tooltiptext">projects</span>
+                </a><br>
+                <a href="javascript:contact()" class="tooltip">o
+                        <span class="tooltiptext">contact me</span>
+                </a><br>
+            </div>
         </div>
     </body>
 </html>
