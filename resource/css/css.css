@@ -6,23 +6,28 @@
 }
 body {
 	font-family: 'PT Mono', monospace;
-    background-color: #050505;
+    background-color: #0a0a0a;
     color: white;
     scroll-behavior: smooth;
     scroll-snap-type: mandatory;
     scroll-snap-points-y: repeat(100vh);
     height: 100vh;
 }
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
 section {
 	/*border-bottom: 1px solid #444444;*/
 	padding: 0;
 	height: 100vh;
-	text-align: center;
     position: relative;
 }
 h1	{
-	position: absolute;
-	top: 2%;
+	position: relative;
+	top: 5%;
     text-align: left;
     padding-left: 5vw;
     font-family: 'Encode Sans Condensed', sans-serif;
@@ -36,9 +41,15 @@ p {
     padding: 0;
     line-height: 0;
 }
+.sectioncontent {
+    line-height: 1;
+    position: absolute;
+    padding-left: 10%;
+    top: 15%;
+}
 #hey {
     position: absolute;
-    top: 40%;
+    top: 43.5%;
     left: 50%;
     transform: translateY(-50%);
     transform: translateX(-50%);
@@ -53,6 +64,7 @@ p {
     font-family: 'Montserrat', sans-serif;
     font-size: 4vh;
     padding: 0%;
+    text-align: center;
 }
 #heylines {
     position: absolute;
@@ -83,7 +95,6 @@ p {
 a {
     text-decoration: none;
     color: gray;
-    content: "o";
 }
 a:hover{
     display: inline;
@@ -111,4 +122,26 @@ a:hover{
 
 .active{
     color: white;
+}
+.large-header {
+    float: left;
+    position: absolute;
+    z-index: -100;
+    filter: blur(1.5px) brightness(1.7);
+}
+
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 0px solid black;
+}
+
+th, td {
+    padding-right: 2px;
+}
+
+.projectmatrix {
+    position: relative;
+    padding-left: 10%;
 }
