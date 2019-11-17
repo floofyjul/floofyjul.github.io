@@ -7,9 +7,6 @@
   
  - /betterdiscord
    - betterdiscord css edits
-  
- - /dev 
-   - WIP website
  
  - /server
    - deprecated game server load screen
