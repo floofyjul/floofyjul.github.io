@@ -15,10 +15,10 @@
 .panels-j1Uci_ {
     margin-bottom: 10px;
 }
-.theme-dark .isMentioned-N-h9aa {
-    background: rgba(184, 112, 237,.1);
+.theme-dark .mentioned-xhSam7 {
+    background: rgba(184, 112, 237,.1) !important;
 }
-.isMentionedCozy-3isp7y:after {
+.mentioned-xhSam7:before {
     background: rgba(184, 112, 237,.1);
     border-left: 4px solid #b870ed;
 }

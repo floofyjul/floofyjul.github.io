@@ -1,4 +1,4 @@
-//META{"name":"Nocturnal","description":"A simple & clean dark theme for thoses who live at night, made to be easy on the eye","author":"Spectra#7698","version":"1.0","source":"https://github.com/codedotspectra/themes","website":"https://codedotspectra.github.io/me/"}*//{}
+//META{"name":"Nocturnal PURPLE","description":"A simple & clean dark theme for thoses who live at night, made to be easy on the eye. PURPLE EDITION","author":"jul","version":"1.0","source":"https://github.com/codedotspectra/themes","website":"https://codedotspectra.github.io/me/"}*//{}
 /*
 
 ███╗   ██╗ ██████╗  ██████╗████████╗██╗   ██╗██████╗ ███╗   ██╗ █████╗ ██╗
@@ -19,4 +19,5 @@ If you enjoy using the theme, help spread the word!
 This theme is meant to be used with the dark version of discord
 ###################################################################################################*/
 @import url("https://codedotspectra.github.io/themes/nocturnal/importCSS/core.css");
+@import url("https://sleepyjul.github.io/betterdiscord/purple_nocturnal.css");
 /*###################################################################################################*/
